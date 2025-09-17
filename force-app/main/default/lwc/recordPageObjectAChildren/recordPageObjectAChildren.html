@@ -1,0 +1,9 @@
+<template>
+    <lightning-button label="Previous" onclick={handlePrevious} disabled={isPreviousDisabled}></lightning-button>
+    <lightning-button label="Next" onclick={handleNext} disabled={isNextDisabled}></lightning-button>
+    <lightning-datatable
+        data={records}
+        columns={columns}
+        key-field="id"
+    ></lightning-datatable>
+</template>
