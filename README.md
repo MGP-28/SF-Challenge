@@ -1,3 +1,9 @@
+Package link: https://login.salesforce.com/packaging/installPackage.apexp?p0=04tWU000000AsGrYAK
+
+Package password: password123
+
+
+
 Run script in Dev Console to add some test records:
 
 Object_A__c objectA = new Object_A__c(Name = 'Object A');
