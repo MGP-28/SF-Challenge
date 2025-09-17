@@ -1,11 +1,12 @@
+# Package
 Package link: https://login.salesforce.com/packaging/installPackage.apexp?p0=04tWU000000AsGrYAK
 
 Package password: password123
 
-
+# Insert test data
 
 Run script in Dev Console to add some test records:
-
+```bash
 Object_A__c objectA = new Object_A__c(Name = 'Object A');
 INSERT objectA;
 
@@ -22,3 +23,4 @@ for (Integer i = 1; i <= 25; i++) {
 	lstC.add(objectC);
 }
 INSERT lstC;
+```
